@@ -1,0 +1,107 @@
+/*Nav Bar CSS*/
+html, body { 
+  margin: 0px; 
+  padding: 0px; 
+  height: 100%;
+} 
+
+nav{ 
+  display: grid; 
+  grid-template-columns: auto 1fr; 
+  background-color: darkgray; 
+  padding: 20px; 
+  background-image: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+} 
+
+nav ul {
+  margin: 0px; 
+  padding: 0px; 
+  text-align: right;
+}
+
+nav ul li { 
+  display: inline-block;
+} 
+
+.Logo { 
+  color: #CAF0F8; 
+  font-weight: 700px; 
+  font-size: 40px; 
+} 
+
+nav ul li a { 
+  color: white; 
+  padding: 10px; 
+  text-decoration: none; 
+} 
+
+nav ul li a:hover { 
+  background-color: rgb(7, 7, 7); 
+} 
+
+.searchbar { 
+  position: sticky; 
+  left:82%; 
+  top:25%; 
+  width:30%; 
+} 
+
+main { 
+  height: 100%; 
+}
+
+/*HomePage CSS*/
+
+/*grids to sperate and orginize each box*/
+#indexfirst {
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+  background-color:#001F46;
+}
+
+#indexsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.indexboxes {
+  margin: 5%;
+  padding: 3%;
+  background-color: #CAF0F8;
+}
+
+.indexbox {
+  margin: 5%;
+  padding: 3%;
+}
+
+/*Box header border*/
+.foborder > div > h1 {
+  border-bottom: 1px solid #001F46;
+}
+
+
+
+#fogridfirst {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: center;
+  font-size: 30px;
+}
+
+#fogridsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
+
+
+
+
+
+
+
+
