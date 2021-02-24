@@ -6,6 +6,8 @@ html, body {
 } 
 
 nav{ 
+  position: fixed;
+  width: 99%;
   display: grid; 
   grid-template-columns: auto 1fr; 
   background-color: darkgray; 
@@ -25,7 +27,7 @@ nav ul li {
   display: inline-block;
 } 
 
-.Logo { 
+.logo { 
   color: #CAF0F8; 
   font-weight: 700px; 
   font-size: 40px; 
@@ -43,9 +45,8 @@ nav ul li a:hover {
 
 .searchbar { 
   position: sticky; 
-  left:82%; 
+  left: 83%; 
   top:25%; 
-  width:30%; 
 } 
 
 main { 
@@ -57,6 +58,7 @@ main {
 /*grids to sperate and orginize each box*/
 #indexfirst {
   display: grid;
+  padding: 5% 0;
   grid-template-rows: 2fr 2fr;
   background-color:#001F46;
 }
@@ -78,23 +80,54 @@ main {
 }
 
 /*Box header border*/
-.foborder > div > h1 {
+.headerborder > div > h1 {
   border-bottom: 1px solid #001F46;
 }
 
-
-
+/*friends online box*/
 #fogridfirst {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#fogridsec {
   display: grid;
   grid-template-rows: 1fr;
   text-align: center;
   font-size: 30px;
 }
 
-#fogridsec {
+#fogridthird {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 2fr;
 }
+
+
+/*newsfeed box css*/
+#newsfeedgridfirst {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#newsfeedgridsec {
+  display: grid;
+  text-align: left;
+  font-size: 15px;
+}
+
+#newsfeedgridthird {
+  display: grid;
+  grid-template-columns: 0.33fr  1fr;
+}
+
+
+
 
 
 
